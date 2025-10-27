@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+</head>
+<body>
+    <header>
+        <h1>Productos</h1>
+    </header>
+<form action="form_cliente.html" method="post">
+<main>
+        <table border="1" width="100%">
+            <thead>
+                <tr >
+                    <th colspan="6">
+                        Productos
+                    </th>
+                </tr>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th rowspan="2">Precio</th>
+                    <th rowspan="2">Stock</th>
+                    <th colspan="4">Agregar</th>
+                </tr>
+
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="comida">Productos electronicos/tvs</label><br>
+                        <form>
+                        <input type="radio" id="lapton" name="laptop" value="l">
+                        <label for="html">laptop</label><br>
+                        <input type="radio" id="smart" name="smart" value="smart">
+                        <label for="css">smartphone</label><br>
+                        <input type="radio" id="tv" name="tv" value="tv">
+                        <label for="javascript">smartv</label>
+                        </form>
+
+
+
+                    </td>
+                    <td>3</td>
+                    <td>200</td>
+                    <td>
+                        <label for="colo">
+                        <input type="text" id="color" name="color" value="Ingresa color">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="Cantidad">Cantidad</label>
+                        <input type="number">
+                    </td>
+                    <td>
+
+                       <input type="button" onclick="alert('Agregado')" value="Agregar">
+                    </td>
+
+                </tr>
+
+               <tr>
+                    <td>
+                        <label for="comida">Excritura</label>
+                        <form>
+                        <input type="radio" id="lapiz" name="lapiz" value="lapiz">
+                        <label for="html">lapiz</label><br>
+                        <input type="radio" id="esf" name="esf" value="esf">
+                        <label for="css">esfero</label><br>
+                        <input type="radio" id="marc" name="mar" value="marc">
+                        <label for="javascript">marcador</label>
+                        </form>
+
+
+
+                    </td>
+                    <td>
+                        <label for="">1</label>
+                        <input type="checkbox">
+                    </td>
+                    <td>200</td>
+                    <td>
+                        <label for="colo">
+                        <input type="text" id="color" name="color" value="Ingresa color">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="Cantidad">Cantidad</label>
+                        <input type="number">
+                    </td>
+                    <td>
+                        <input type="button" onclick="alert('Agregado')" value="Agregar">
+                    </td>
+
+                </tr>
+
+                 <tr>
+                    <td>
+                        <label for="comida">Sillas</label>
+                        <form>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label for="html">gamers</label><br>
+                        <input type="radio" id="css" name="fav_language" value="CSS">
+                        <label for="css">clasica</label><br>
+                        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                        <label for="javascript">normal</label>
+                        </form>
+
+
+
+                    </td>
+                    <td>3</td>
+                    <td>200</td>
+                    <td>
+                        <label for="colo">
+                        <input type="text" id="color" name="color" value="Ingresa color">
+                        </label>
+                    </td>
+                    <td>
+                        <label for="Cantidad">Cantidad</label>
+                        <input type="number">
+                    </td>
+                    <td>
+                       <input type="button" onclick="alert('Agregado')" value="Agregar">
+                    </td>
+
+                </tr>
+
+
+            </tbody>
+
+            <tfoot>
+
+                <tr>
+                    <th colspan="6">
+                        <label for="enviar">
+                        <input type="submit" id="enviar" name="enviar" value="Enviar ">
+                        </label>
+                    </th>
+
+                </tr>
+
+
+            </tfoot>
+        </table>
+    </main>
+
+    <footer></footer>
+
+</form>
+
+</body>
+</html>
