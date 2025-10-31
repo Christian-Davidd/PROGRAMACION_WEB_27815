@@ -1,0 +1,16 @@
+#nombres{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#comentarios{
+    word-spacing: 5rem;
+}
+#lista-frutas{
+    text-shadow: 1px 1px 2px black;
+}
+#estado{
+     accent-color: #ea1b1b;
+}
+#radio1{
+     cursor: pointer;
+}
