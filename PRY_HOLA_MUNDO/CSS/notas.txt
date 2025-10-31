@@ -1,0 +1,4 @@
+Consiste en un selector
+Dentro va las propiedades con : se da el valor
+para comentar se pone /**/
+se enlza con el html con el link

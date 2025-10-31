@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>ACTIVIDAD EN CLASE</h1>
+    </header>
+    <main>
+        <form action="server.html" method="get">
+            <label for="cedula">INGRESE UNA CEULA</label>
+            <input type="number" name="cedula" id="cedula" placeholder="1234567891" pattern="[0-9]{10}" required>
+            <br>
+            <label for="id_venta">INGRESE EL UD DE FACTURA O VENTA</label>
+            <input type="text" name="id_venta" id="id_venta" placeholder="FACT-2025-10-27-pm" pattern="[A-Z]{6}[0-9]{4}[0-9]{2}[0-9]{2}[a-b]{2}" required>
+            <br>
+            <label for="lista_productos">SELECCIONE UN PRODUCTO</label>
+            <select name="lista_productos" id="lista_productos"  requiered multiple aria-valuemin="5">
+                <option value="papas" selected>PAPAS</option>
+                <option value="mote" selected>MOTE</option>
+                <option value="tomate" selected>TOMATE</option>
+                <option value="ajo" selected>AJO</option>
+                <option value="atun" selected>ATUN</option>
+                <option value="zanahoria" disabled>ZANAHORIA</option>
+                <option value="laptop" disabled>LAPTOP</option>
+            </select>
+            <br>
+            <label for="evidencia">SUBIR EVIDENCIA</label>
+            <input type="file" name="evidencia" id="evidencia" accept=".pdf" required>
+
+            <br>
+            <button type="submit">ENVIAR AL SERVIDOR</button>
+        </form>
+    </main>
+    <footer>
+        <p>
+            2025.c
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        SELECT EN FORMULARIO
+    </title>
+</head>
+<body>
+    <header>
+        <h1>SELECT EN FORMULARIOS</h1>
+    </header>
+    <main>
+        <!-- autufocus para que salga marcadp -->
+        <form action="server.html" method="get">
+            <!-- <input type="submit" value="Enviar al server""> -->
+            <!-- otro boton tambien se usa como  -->
+             <!-- se pone submit para enviar como formulario -->
+              <!-- select para seleccionar varios elementos -->
+              <label for="Ingrese su iD .ejem"></label>
+              <input type="hidden" value="01221212" name="cedula_usuario" >
+              <input type="text" name="id" id="id" placeholder="INFRESE SU ID" pattern="[a-z][A-Z]{3}[0-9]{4}" required>
+              <!-- para validar que se exprese como esta -->
+
+               <label for="lista_frutas">LISTA DE FURTAS</label>
+               <!-- value el valor que se envia -->
+                <!-- disable se bloquea -->
+              <!-- <select name="lista_frutas" id="lista_frutas" disabled> -->
+              <select name="lista_frutas" id="lista_frutas" required>
+                <!-- para vacio se crea vacio -->
+                 <!-- autufocus para que marque -->
+                    <option value=""></option>
+                    <option value="naranja">NARANJA</option>
+                    <option value="uva" >UVA</option>
+                    <!-- para predeterminado selected -->
+                    <option value="pera" selected>PERA</option>
+                    <option value="zapatos" disabled>ZAPATOS</option>
+
+              </select>
+
+              <br>
+
+              <label for="muscas_favoritas">SELECCIONE SUS MUSICAS FAVORITAS</label>
+              <select name="mis_musicas_favoritas[]" id="muscas_favoritas">
+              <!-- <select name="mis_musicas_favoritas" id="muscas_favoritas" multiple> para elementos multiples -->
+                <!-- para el tamaño se muestra size -->
+                 <!-- para categorizar se usa pa <optgroup></optgroup> -->
+                <option value="" disabled></option>
+                <option value="LOBA_SHAKIRA" selected>LOBA SHAQUIRA</option>
+                <option value="ANOCHE" disabled>ANOCHE BAD BUNNY</option>
+                <option value="AVENTURA">INFIELES ANVENTRUA</option>
+                <!-- para el title no se muestra -->
+                <optgroup title="muscia de shakira">
+                    <option value="LOBA_SHAKIRA" selected>LOBA SHAQUIRA</option>
+                    <option value="ANOCHE" disabled>ANOCHE BAD BUNNY</option>
+                    <option value="AVENTURA">INFIELES ANVENTRUA</option>
+                </optgroup>
+                <optgroup title="musica de aventura">
+                    <option value=""></option>
+                    <option value="LOBA_SHAKIRA" selected>LOBA SHAQUIRA</option>
+                    <option value="ANOCHE" disabled>ANOCHE BAD BUNNY</option>
+                    <option value="AVENTURA">INFIELES ANVENTRUA</option>
+                </optgroup>
+              </select>
+              <br>
+              <!-- TEXT AREA -->
+               <!-- contenido extenso  -->
+                <!-- el label se pone cuando hay id -->
+             <label for="descripcion">INGRESE UNA DESCRIPCION</label>
+             <textarea name="descripcion" required id="descripcion" rows="5" cols="32">HOLA CHICOS Y CHICAS DE POO</textarea>
+             <!-- rows y cols para dar un min -->
+              <br>
+             <button type="submit">ENVIAR AL SERVIDOR</button>
+
+
+
+        </form>
+    </main>
+    <footer>
+        <p>
+            c 2025
+        </p>
+    </footer>
+</body>
+</html>
