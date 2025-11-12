@@ -1,0 +1,11 @@
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter id="svg_1_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <text filter="url(#svg_1_blur)" font-weight="bold" transform="matrix(10.3603 0 0 26.2175 -1152.11 -2906.28)" xml:space="preserve" text-anchor="start" font-family="'Orbitron'" font-size="24" id="svg_1" y="135.18101" x="111.38604" stroke-width="0" fill="#e2cb1d">MYSELF</text>
+ </g>
+</svg>

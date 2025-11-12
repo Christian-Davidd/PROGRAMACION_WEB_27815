@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<header>
+    <h1>Formulario Cliente</h1>
+</header>
+<body>
+    <main>
+        <table border="1" width="100%"   >
+            <thead>
+                <tr>
+                    <th colspan="4">Ingrese datos del cliente</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="2">Nombre</th>
+                    <td> <input type="text"
+                        name="nombres"
+                        id="nombres"
+                        placeholder="Ingrese sus nombres"
+                        value="ev"
+                        required>
+                    </td>
+                    <th rowspan="2">Direccion</th>
+                    <td>
+                        <input type="text"
+                        name="calle principal"
+                        id="calle principal"
+                        placeholder="Ingrese la calle principal"
+                        value="sbiuebc"
+                        required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text"
+                        name="apellidos"
+                        id="apellidos"
+                        placeholder="Ingrese sus apellidos"
+                        value="villarreal"
+                        required>
+                    </td>
+                    <td>
+                        <input type="text"
+                        name="calle secundaria"
+                        id="calle secundaria"
+                        placeholder="Ingrese la calle secundaria"
+                        value="agyeb"
+                        required>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Genero</th>
+                    <td>
+                        <label for="hombre">Hombre</label>
+                        <input type="radio" name="genero" id="hombre" value="hombre">
+                        <label for="mujer">Mujer</label>
+                        <input type="radio" name="genero" id="mujer"value="mujer" checked>
+                        <label for="otro">Otro</label>
+                        <input type="radio" name="genero" id="otro"value="otro">
+                    </td>
+                    <th>Fecha Nacimiento</th>
+                    <td>
+                        <input type="date" name="fecha_nacimiento"
+                        id="fecha_nacimiento"
+                        value="2025-22-10"
+                        required>
+                    </td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Cedula</th>
+                    <td>
+                        <label for="RUC">Ingrese RUC</label>
+                        <input type="text"
+                        name="RUC"
+                        id="RUC"
+                        placeholder="Ingrese su RUC"
+                        value="1723456789"
+                        min="10"
+                        max="13"
+                        required>
+                    </td>
+                    <th rowspan="2">Telefono</th>
+                    <td>
+                        <label for="celular">Ingrese num. celular</label>
+                        <input type="text"
+                        name="celular"
+                        id="celular"
+                        placeholder="Ingrese su telefono celular"
+                        value="0987654321"
+                        min="10"
+                        max="10"
+                        required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="cedula">Ingrese su cedula</label>
+                        <input type="text"
+                        name="cedula"
+                        id="cedula"
+                        placeholder="Ingrese su cedula"
+                        value="1723456789"
+                        min="10"
+                        max="10"
+                        required>
+                    </td>
+                    <td>
+                        <label for="convencional">Ingrese num. convencional</label>
+                        <input type="text"
+                        name="convencional"
+                        id="convencional"
+                        placeholder="Ingrese su telefono convencional"
+                        value="022345678"
+                        min="9"
+                        max="9"
+                        required>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">
+                        <label for="enviar">
+                        <input type="submit" id="enviar" name="enviar" value="Enviar ">
+                        </label>
+                    </th>
+
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+</body>
+</html>
