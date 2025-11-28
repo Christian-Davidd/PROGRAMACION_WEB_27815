@@ -1,0 +1,39 @@
+.caja-static{
+    position: static;
+    /* extras */
+    background-color: aqua;
+    margin: 2px ;
+    border: 1px solid;
+    padding: 2px;
+    /* no afecta propiedades  de  mover*/
+    left: 40px;
+    top: 500px;
+}
+.caja-relative{
+    position: relative;
+    left: 20px;
+    background-color: blue;
+    margin: 2px;
+    padding: 23px;
+    top: 20px;
+    bottom:  50px;
+    right: 20px;
+}
+.padre{
+    position: relative;
+    background-color: bisque;
+    width: 500px;
+    height: 250px;
+}
+.caja-absolute{
+    position: absolute;
+    top: 50px;
+    left: 120px;
+    background-color: red;
+}
+.caja-fixed{
+    position: fixed;
+    background-color: green;
+    bottom: 5px;
+    right: 5px;
+}

@@ -1,0 +1,22 @@
+
+.caja-fixed{
+    position: fixed;
+    color: white;
+    background-color: #004a77;
+    font-weight: 400;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    width: 9em;
+    height: 30px;
+    box-shadow: 50%;
+    font-size: 20px;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.btn btn-success position-fixed bottom-0 end-0 m-4{
+    position: fixed;
+}
